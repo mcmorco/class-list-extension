@@ -1,38 +1,56 @@
 body {
-    width: 325px;
-    height: 1250px;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    background-color: #90AFC5;
-    text-align: center;
+   width: 325px;
+   height: 375px;
+   overflow: hidden;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   border-radius: 5px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+   padding-bottom: 20px;
+   background-color: #fafafa;
+   text-align: center;
+   border: 10px solid #fafafa;
  }
  .center{
     margin-left: auto;
     margin-right: auto;
  }
 button{
-   background-image: linear-gradient(to right, #90AFC5 50%, #90AFC5);
+   background-image: linear-gradient(to right, #fafafa 50%, #fafafa);
    border:0cm;
-   color: white;
+   color: #ef758a;
    border-radius: 5px;
    cursor: pointer;
+   font-size: 14px;
+   margin-top: 10px;
 }
 a{
    color: white;
 }
 div{
-   background-image: linear-gradient(to right, #336b87 50%, #336b87);
+   background-image: linear-gradient(to right, #f57f59 50%, #ef758a);
    border:0cm;
    color: white;
    border-radius: 5px;
   text-align: center;
 }
+
 .copyRight{
    color:white;
    bottom:0;
+}
+a.button {
+   -webkit-appearance: button;
+   -moz-appearance: button;
+   appearance: button;
+
+   font-size: 14px;
+   text-decoration: none;
+   background-color: #fafafa;
+   border:1px solid #ef758a;
+   color: #ef758a;
+   border-radius: 5px;
+   cursor: pointer;
 }

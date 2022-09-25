@@ -1,13 +1,13 @@
 {
     "manifest_version": 3,
     "name": "Zoom Meeting Shortcut",
-    "permissions": ["activeTab","identity"],
+    "permissions": ["activeTab","identity","storage"],
     "description": "An extension that contains Zoom meeting details of personal classes.",
-    "version": "2.0.0",
+    "version": "3.0.1",
     "icons": {
-        "16":"/images/link-img.png",
-        "48":"/images/link-img.png",
-        "128":"/images/link-img.png"
+        "16":"/images/dev-img.png",
+        "48":"/images/dev-img.png",
+        "128":"/images/dev-img.png"
     },
     "action":{
         "default_title": "Time to go to class!",

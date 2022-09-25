@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie-edge">
+        <title>Calendar Extension</title>
+        <link rel="stylesheet" href="addPage.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+
+    </head>
+    <body style = "padding: 10px; text-align:left">
+        <div>
+            <label for="className">Class Name</label><br>
+            <input type="text" id="className" name="className" placeholder="Math 21"><br>
+        </div>
+        
+        <div>
+            <label for="classUrl">Class Site URL</label><br>
+            <input type="text" id="classUrl" name="classUrl" placeholder="https://www.google.com"><br>
+        </div>
+        
+        <div>
+            <label for="meetingUrl">Meeting URL</label><br>
+            <input type="text" id="meetingUrl" name="meetingUrl" placeholder="https://www.google.com"><br>
+        </div>
+        
+        <div>
+            <label for="meetingPassword">Meeting Password</label><br>
+            <input type="text" id="meetingPassword" name="meetingPassword" placeholder="Password123"><br>
+        </div>
+
+        
+        <p style="color:red" id="errorMsg"></p>
+        <button id="addClassButton">Add</button>
+        <a class="button" href="popup.html"><button class="backBtn">Back</button></a>
+    </body>
+    <script src="addPage.js"></script>
+</html>
